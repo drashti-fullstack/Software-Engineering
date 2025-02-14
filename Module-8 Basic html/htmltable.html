@@ -1,0 +1,61 @@
+<!-- Task: Create a product catalog table that includes the following columns:
+o Product Name
+o Product Image (use placeholder image URLs)
+o Price
+o Description
+o Availability (in stock, out of stock)
+Additional Requirements:
+o Use thead for the table header.
+o Add a border and some basic styling using inline CSS.
+o Use colspan or rowspan to merge cells where applicable -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body style="background-color: rgb(209, 195, 247)">
+    <h2 align="center">Ice Cream Menu</h2>
+    <table border="1" align="center" style="width: 80%; text-align: center;">
+        <thead style="background-color: lightcoral;">
+            <tr>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: lightgoldenrodyellow;">
+            <tr>
+                <td> Vanila </td>
+                <td><img src="https://www.havmor.com/sites/default/files/styles/380x273/public/products/vanila.png?itok=Uoj8AfZK" alt="Product 1" height="100px"></td>
+                <td>50&#8377;</td>
+                <td>200gm</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td> Choco Chips</td>
+                <td><img src="https://www.havmor.com/sites/default/files/styles/502x375/public/gallery/choclate-chips_0.jpg?itok=jeaFOwBl" alt="Product 2" height="100px"></td>
+                <td>75&#8377;</td>
+                <td>220gm</td>
+                <td>In stock</td>
+            </tr>
+            <tr>
+                <td>American Nuts</td>
+                <td><img src="https://www.havmor.com/sites/default/files/styles/380x273/public/products/American-Nuts.png?itok=vr6NQ0fR" alt="Product 3" height="100px"></td>
+                <td>70&#8377;</td>
+                <td>220gm</td>
+                <td>Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Butter Scotch</td>
+                <td><img src="https://www.havmor.com/sites/default/files/styles/502x375/public/gallery/butter_scotch_cup.jpg?itok=xGKNVeag" alt="Product 4" height="100px"></td>
+                <td>60&#8377;</td>
+                <td>200gm</td>
+                <td>In Stock</td>
+            </tr>
+    </table>
+</body>
+</html>
